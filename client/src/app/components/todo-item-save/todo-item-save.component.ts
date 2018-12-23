@@ -36,6 +36,7 @@ export class TodoItemSaveComponent implements OnInit {
     }else{
       this.todolistService.editItem(this.todoItem).subscribe();
     }
+    
     this.bottomSheetRef.dismiss(true)
   }
 }

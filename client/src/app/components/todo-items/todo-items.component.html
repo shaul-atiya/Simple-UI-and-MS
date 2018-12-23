@@ -1,4 +1,9 @@
 <div class="row">
+ 
+  <div class="col-12">
+      <app-search (todoResoults)="updateItems($event)"></app-search>
+  </div>
+
   <div class="col-12 ">
     <mat-accordion>
       <mat-expansion-panel *ngFor="let item of todoItems">
@@ -10,26 +15,32 @@
             </div>
           </mat-panel-title>
         </mat-expansion-panel-header>
+        
         <div class="row">
           <div class="col-8">
             <p>{{ item.description }}</p>
           </div>
+
           <div class="col-4">
             <mat-checkbox (change)="updateChecked(item)" [checked]="item.done" i18n="'Done', used for indicator">
               Done!
             </mat-checkbox>
           </div>
+
           <div class="row">
             <div class="col-6">
               <button mat-raised-button (click)="removeItem(item)" i18n="'Delete', used for button label">
                 Delete
               </button>
             </div>
+            
             <div class="col-6">
               <button mat-raised-button (click)="editItem(item)" i18n="'Edit', used for button label">Edit</button>
             </div>
           </div>
+
         </div>
+
       </mat-expansion-panel>
     </mat-accordion>
   </div>

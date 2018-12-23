@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { FormsModule } from '@angular/forms';
 import { SpinnerComponent } from './components/interceptors/spinner/spinner.component';
 import { TodoItemSaveComponent } from './components/todo-item-save/todo-item-save.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TodoItemSaveComponent } from './components/todo-item-save/todo-item-sav
     TodoItemsComponent,
     TodoItemSaveComponent,
     SpinnerComponent,
+    SearchComponent,
     
   ],
   imports: [

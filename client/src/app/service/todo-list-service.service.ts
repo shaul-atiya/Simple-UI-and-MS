@@ -36,5 +36,11 @@ export class TodoListServiceService {
   {
     return <Observable<Object>> this.http.post(this.endpoint +"/updateTodoItem/"+item.id,item);
   }
+
+  searchByName(name:string):Observable<Todo[]>
+  {
+    return <Observable<Todo[]>> this.http.post(this.endpoint +"/getByNameRegex/",name);
+
+  }
   
 }

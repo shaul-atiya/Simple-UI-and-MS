@@ -52,8 +52,8 @@ public class RestController {
 		return todoListRepo.findAll();
 	}
 
-	@RequestMapping("getByName/{name}")
-	public @ResponseBody List<TodoItem> getByName(@PathVariable("name") String name) {
-		return todoListRepo.findByName(name);
+	@RequestMapping(method = RequestMethod.POST, value="getByNameRegex")
+	public @ResponseBody List<TodoItem> getByName(@RequestBody String name) {
+		return todoListRepo.findByNameContainingIgnoreCase(name);
 	}
 }

@@ -10,6 +10,6 @@ import com.elbit.todo.domain.TodoItem;
 @Repository
 public interface TodoListRepo extends MongoRepository<TodoItem, String> {
 
-	public List<TodoItem> findByName(String name);
+	public List<TodoItem> findByNameContainingIgnoreCase(String name); 
 	
 }

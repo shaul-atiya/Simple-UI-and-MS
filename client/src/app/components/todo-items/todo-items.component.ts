@@ -61,4 +61,8 @@ export class TodoItemsComponent implements OnInit {
     trg.id= src.id;
     trg.name = src.name;
   }
+
+  updateItems(event:Todo[]) {
+    this.todoItems = event;
+  }
 }
