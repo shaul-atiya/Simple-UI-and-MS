@@ -6,6 +6,7 @@ You will find the compiled UI in this jar as well.
 
 To run the jar (start the server) you will need to download the kar  and run the next under the jar folder
 java -jar demo-0.0.1-SNAPSHOT.jar
+or run start-server.bat
 
 To access the web-application go to :
 http://localhost:8080/
