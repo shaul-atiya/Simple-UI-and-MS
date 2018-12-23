@@ -7,7 +7,7 @@ You will find in the project 3 directories
 -----------------
 Client directory
 -----------------
-you will find the source of the client side of the project.
+you will find the source of the client side of the project (written in Angular 6).
 If you like to run only the client side you will need to do the next:
 1. Download all source files
 2. Go to source files location
