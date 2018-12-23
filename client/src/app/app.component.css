@@ -1,0 +1,11 @@
+.header {
+  background-color: #ffdc2d;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+}
+
+.todo-items {
+  padding:  2em;
+}
+

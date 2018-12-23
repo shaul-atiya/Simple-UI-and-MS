@@ -1,0 +1,9 @@
+<div  [ngClass]="{'hide-spinner':!isSpinnerNeeded}"  class="col-12 container">
+  <div class="outer-circle"></div>
+  <div class="inner-circle"></div>
+</div>
+
+<div  [hidden]="!isErrorOccured" class="alert alert-danger" role="alert"  
+      i18n="'An error occurred while calling the Server ', used for error message">
+  An error occurred while calling the Server 
+</div>

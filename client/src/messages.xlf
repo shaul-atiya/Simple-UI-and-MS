@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="99dc20ecc8674dca5d80d481338496dfe97c7dbd" datatype="html">
+        <source>
+    Elbit To-Do List
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">&apos;Elbit To-Do List&apos;, used for main page title</note>
+      </trans-unit>
+      <trans-unit id="283b0d735643f25e3d21988caffb2ad3588901f9" datatype="html">
+        <source>Name (Title)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-item-save/todo-item-save.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Name (Title), name/title for to-do single item</note>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-item-save/todo-item-save.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">Description, Description for to-do single item</note>
+      </trans-unit>
+      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
+        <source>Save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-item-save/todo-item-save.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">&apos;Save&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="8c2b6644d58eec980a50212a9d1e6b8a346750ad" datatype="html">
+        <source>
+              Done!
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-items/todo-items.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">&apos;Done&apos;, used for indicator</note>
+      </trans-unit>
+      <trans-unit id="2daf3fced66055619866365611f2923e946ce935" datatype="html">
+        <source>
+                Delete
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-items/todo-items.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">&apos;Delete&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html">
+        <source>Edit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-items/todo-items.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">&apos;Edit&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/todo-items/todo-items.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">&apos;Add&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="6113d79f7a1bc6094d1f2c35e12b31d91eafe2b2" datatype="html">
+        <source>
+  An error occurred while calling the Server 
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/interceptors/spinner/spinner.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">&apos;An error occurred while calling the Server &apos;, used for error message</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

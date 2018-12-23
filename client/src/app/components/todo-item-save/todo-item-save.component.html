@@ -1,0 +1,32 @@
+
+  <div class="row">
+    <div class="col-12">
+      <mat-form-field class="text-field">
+        <input matInput
+          maxlength="50"
+          placeholder="Name (Title)*"
+          [(ngModel)]="todoItem.name"
+          (ngModelChange)="inputChanged($event)"
+          i18n-placeholder="Name (Title), name/title for to-do single item - mandatory field"
+          />
+        </mat-form-field>
+    </div>
+    
+    <div class="col-12">
+      <mat-form-field class="text-field">
+        <textarea matInput
+          maxlength="250"
+          placeholder="Description*"
+          [(ngModel)]="todoItem.description"
+          (ngModelChange)="inputChanged($event)"
+          i18n-placeholder="Description, Description for to-do single item - mandatory field">
+        </textarea>
+      </mat-form-field>
+    </div>
+  
+    <div class="col-12 rtl">
+      <button mat-button color="primary" (click)="saveItem()" [disabled]="!isValid" i18n="'Save', used for button label">Save</button>
+    </div>
+   
+  </div>
+

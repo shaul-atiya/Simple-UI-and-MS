@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-16"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en">
+    <body>
+      <trans-unit id="99dc20ecc8674dca5d80d481338496dfe97c7dbd">
+        <source>
+    Elbit To-Do List
+  </source>
+        <target>Elibit רשימת מטלות</target>
+        <note from="description">&apos;Elbit To-Do List&apos;, used for main page title</note>
+      </trans-unit>
+      <trans-unit id="283b0d735643f25e3d21988caffb2ad3588901f9">
+        <source>Name (Title)</source>
+        <target>שם (כותרת)</target>
+        <note from="description">Name (Title), name/title for to-do single item</note>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0">
+        <source>Description</source>
+        <target>תיאור</target>
+        <note from="description">Description, Description for to-do single item</note>
+      </trans-unit>
+      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe">
+        <source>Save</source>
+        <target>שמור</target>
+        <note from="description">&apos;Save&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="8c2b6644d58eec980a50212a9d1e6b8a346750ad">
+        <source>
+              Done!
+            </source>
+        <target>בוצע</target>
+        <note from="description">&apos;Done&apos;, used for indicator</note>
+      </trans-unit>
+      <trans-unit id="2daf3fced66055619866365611f2923e946ce935">
+        <source>
+                Delete
+              </source>
+        <target>מחק</target>
+        <note from="description">&apos;Delete&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c">
+        <source>Edit</source>
+        <target>ערוך</target>
+        <note from="description">&apos;Edit&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9">
+        <source>Add</source>
+        <target>הוסף</target>
+        <note from="description">&apos;Add&apos;, used for button label</note>
+      </trans-unit>
+      <trans-unit id="6113d79f7a1bc6094d1f2c35e12b31d91eafe2b2">
+        <source>
+  An error occurred while calling the Server 
+</source>
+        <target>
+        </target>
+        <note from="description">&apos;An error occurred while calling the Server &apos;, used for error message</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
